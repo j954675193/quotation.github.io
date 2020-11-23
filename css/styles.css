@@ -1,0 +1,75 @@
+table {
+    border-spacing: 0px;
+    border-collapse: collapse;
+    /* justify-content:center; */
+    margin: auto;
+    width: 100%;
+}
+
+th {
+    background-color: #eee;
+    color: navy;
+    border: solid #000 1px;
+}
+
+td {
+    /* border: solid #000000 1px */
+    /* border: dashed #aa00aa 2px */
+    vertical-align: top;
+    /* vertical横坐标：left, center, right */
+    /* vertical纵坐标：top, middle, bottom */
+}
+
+.r {
+    text-align: right;
+}
+
+.data {
+    border-left: solid #000 1px;
+    border-right: solid #000 1px;
+}
+
+.company_name {
+    font-weight: bold;
+}
+
+.company_info {
+    display: inline-block;
+}
+
+.title {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 74%;
+    margin-top: -15%;
+
+}
+
+.sheet {
+    width:50%;
+    height: 15%;
+    margin: auto;
+}
+
+img {
+    width:90%;
+    height: 80%;
+    
+}
+
+.phone {
+    margin-right: 10%;
+}
+
+.mobile {
+    margin-right: 50%;
+}
+
+.info {
+    border-bottom: solid #000 1px;
+    margin-bottom: 2%;
+}
+
+.close {
+    text-align:center;
+}
