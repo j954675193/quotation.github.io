@@ -7,34 +7,35 @@
     <title>Sample Quotation</title>
     <meta name="description" content="The HTML5 Herald">
     <meta name="author" content="SitePoint">
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <link rel="stylesheet" href="css/styles.css?v=1.0">
 
 </head>
 
-<body>
+<body style="min-width: 1000px">   <!-- 设置body最小宽度可解决窗口缩小导致的错位-->
     <div class="sheet">
         <div class="company_info">
-            <p class="company_name">Company Name</p>
+            <p class="company_name">Company Name
+                <span class="title">QUOTATION</span>
+            </p>
+
+            <img src="logo.jpg">
+
             <span>Company Address 1</span><br>
             <span>Company Address 2</span><br>
             <span>Company Address 3</span>
-        </div>
 
-        <div class="title">
-            <h1>QUOTATION</h1>
-            <img src="logo.jpg">
         </div>
 
         <div class="info">
             <p>Your ZIP code here</p>
-            <!-- <p>Phone:123456 &nbsp; &nbsp; &nbsp; &nbsp; Mobile:12345678</p> -->
-            <span class="phone">Phone:123456</span>
-            <span class="mobile">Mobile:12345678</span>
-            <span>2020/11/23</span>
+            <span style="margin-right: 10%;">Phone:123456</span>
+            <span>Mobile:12345678</span>
+            <span style="float: right;">2020/11/23</span>
         </div>
-            
-        <div style="display: inline-block; vertical-align: top; margin-right: 30%;">
+
+        <div style="display: inline-block;">
             <p style="font-weight: bold;">Page No.2</p>
             <span>To: Sample customer name 001</span><br>
             <span>&nbsp; &nbsp; &nbsp; Sample address line1</span><br>
@@ -42,7 +43,7 @@
             <span>&nbsp; &nbsp; &nbsp; Sample address line3</span>
         </div>
 
-        <div style="display: inline-block; vertical-align: top;">
+        <div style=" float: right; ">
             <p style="font-weight: bold;">Currency Dollar&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; No.: A0000000</p>
             <span>Ship to: Sample customer name 001</span><br>
             <span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ship to address line1</span><br>

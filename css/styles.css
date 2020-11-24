@@ -1,8 +1,6 @@
 table {
     border-spacing: 0px;
     border-collapse: collapse;
-    /* justify-content:center; */
-    margin: auto;
     width: 100%;
 }
 
@@ -38,10 +36,16 @@ td {
 }
 
 .title {
-    display: inline-block;
     vertical-align: top;
-    margin-left: 74%;
-    margin-top: -15%;
+    font-size: 200%;
+    float: right;
+}
+
+img {
+    margin-right: -30%;
+    margin-bottom: -5%;
+    width: 25%;
+    float: right;
 
 }
 
@@ -51,19 +55,6 @@ td {
     margin: auto;
 }
 
-img {
-    width:90%;
-    height: 80%;
-    
-}
-
-.phone {
-    margin-right: 10%;
-}
-
-.mobile {
-    margin-right: 50%;
-}
 
 .info {
     border-bottom: solid #000 1px;
